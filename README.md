@@ -1,4 +1,4 @@
-# ml-microservice-api
+[![CircleCI](https://circleci.com/gh/sabingoyek/ml-microservice-api.svg?style=svg)](https://circleci.com/gh/sabingoyek/ml-microservice-api)
 
 ## Project Overview
 
