@@ -1,0 +1,22 @@
+kubectl get pods
+NAME     READY   STATUS    RESTARTS   AGE
+ml-api   1/1     Running   0          13m
+
+------------------------------------------------------------------------------------------------------------------------
+
+Below is output after executing run_kubernetes.sh
+
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+------------------------------------------------------------------------------------------------------------------------
+
+Below is output when pod is running and prediction is made from different terminal by executing make_prediction.sh
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
